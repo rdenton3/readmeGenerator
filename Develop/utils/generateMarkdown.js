@@ -11,34 +11,34 @@ function generateMarkdown(data) {
   console.log(data)
   return `# ${data.title}
 
-  ##Table of Contents 
-  *[Description](#Description)
-  *[Usage](#Usage)
-  *[Installation](#Installation)
-  *[Tests](#Tests)
-  *[Contributions](#Contributions)
-  *[License](#License)
-  *[Questions](#Questions)
+  ## Table of Contents 
+  * [Description](#description)
+  * [Usage](#usage)
+  * [Installation](#installation)
+  * [Tests](#tests)
+  * [Contributions](#contributions)
+  * [License](#license)
+  * [Questions](#questions)
 
-  ##Description
+  ## Description
   ${data.description}
 
-  ##Usage
+  ## Usage
   ${data.usage}
 
-  ##Installation
+  ## Installation
   ${data.install}
 
-  ##Tests
+  ## Tests
   ${data.test}
 
-  ##Contributions
+  ## Contributions
   ${data.contribute}
 
-  ##License
+  ## License
   ${data.license}
 
-  ##Questions
+  ## Questions
   ${data.questions}
 `;
 }
