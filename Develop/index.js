@@ -87,7 +87,7 @@ const questions = () => {
                 type: 'checkbox',
                 name: 'license',
                 message: 'Which license applies to your project?',
-                choices: ['MIT License', 'Community License', 'GNU GPLv3']
+                choices: ['MIT License', 'Apache 2.0', 'GNU GPLv3', 'None']
               },
             {
             type: 'input',
