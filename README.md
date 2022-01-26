@@ -11,7 +11,7 @@
   * [Questions](#questions)
 
   ## Description
-  This application allows users to inout information about their project and output a professional README document they can display on their Github.
+  This application allows users to input information about their project and output a professional README document they can display on their Github.
 
   ## Usage
   Please reference the Screencastify link on how to use the application. https://watch.screencastify.com/v/Vj6kHkeyBMcA8HVqDZAy
