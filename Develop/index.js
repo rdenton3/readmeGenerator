@@ -91,17 +91,30 @@ const questions = () => {
               },
             {
             type: 'input',
-            name: 'questions',
-            message: 'Please enter your email and github username for users to reach you with questions. (Required)',
-            validate: qInput => {
-                if (qInput) {
+            name: 'email',
+            message: 'Please enter your email. (Required)',
+            validate: emailInput => {
+                if (emailInput) {
                     return true;
                 } else {
-                    console.log('Please enter contact information.');
+                    console.log('Please enter an email address.');
                     return false;
                 }
                 }
-            }
+            },
+            {
+                type: 'input',
+                name: 'github',
+                message: 'Please enter your github username. (Required)',
+                validate: githubInput => {
+                    if (githubInput) {
+                        return true;
+                    } else {
+                        console.log('Please enter your github username.');
+                        return false;
+                    }
+                    }
+                }
         ])}
 
 
